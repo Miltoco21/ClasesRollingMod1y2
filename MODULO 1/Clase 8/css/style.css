@@ -1,0 +1,30 @@
+body {
+  font-family: "Comforter", cursive;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 80px;
+
+}
+section img {
+  width: 300px;
+  border: 1px solid gray;
+  margin-bottom: 50px;  
+
+}
+.tarjeta{
+  
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.5rem; 
+  box-shadow: 15px 12px  silver;
+  }
+  img:hover:focus-visible
+pseudoclase
+filter

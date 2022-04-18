@@ -1,0 +1,12 @@
+.elemento{
+  background-color:burlywood
+  width: 150;
+  height: 150;
+  border:solid:sol
+}
+.container cabeza{
+  display:inline-block;
+  position:relative;
+  margin-left: 150px;
+  justify-content: center;
+

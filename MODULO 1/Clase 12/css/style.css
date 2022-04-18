@@ -1,0 +1,36 @@
+body {
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+.nav-option:hover {
+  background-color: #98bc24;
+}
+.option-active{
+  background-color: #98bc24;
+}
+.textgreen{
+  color: #98bc24;
+}
+p{
+  color: black;
+}
+.icon-container{
+  color: #98bc24;
+  border: 2px dashed #98bc24;
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+}
+img.icon{
+width:66px
+height:66px
+}
+h4{
+  color: black;
+}

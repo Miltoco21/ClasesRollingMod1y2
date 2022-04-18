@@ -1,0 +1,48 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: antiquewhite;
+  margin: 0px;
+}
+header {
+  background-color: darkslateblue;
+  color: aliceblue;
+  padding: 3rem 2rem;
+}
+header h1 {
+  font-size: 4rem;
+}
+nav li{
+  display:inline-block;
+  padding: 3rem;
+}
+.Container {
+  width: 400px;
+  margin: 0 auto;
+}
+section article {
+  background-color: white;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+}
+
+section article h2,
+section article p {
+  margin: 1rem;
+}
+#img {
+  margin: 0px;
+
+}
+footer{
+  background-color: darkslateblue;
+  color: aliceblue;
+  padding: 3rem 2rem;
+}
+footer li{
+  display:inline-block;
+  padding: 3rem;
+  ;
+}

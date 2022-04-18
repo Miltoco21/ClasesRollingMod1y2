@@ -1,0 +1,69 @@
+h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display:flex;
+  justify-content: center;
+
+}
+.cabeza {
+  background-color: orange;
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
+  margin-bottom: 5px;
+}
+.Brazoderecho {
+  background-color: orange;
+  display: inline-flex;
+  width: 80px;
+  height: 260px;
+  justify-content: space-around;
+  align-items: center;
+}
+.Cuerpo {
+  background-color: orange;
+  display: inline-flex;
+  width: 250px;
+  height: 240px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  margin-bottom: 1px;
+}
+.Brazoizquierdo {
+  background-color: orange;
+  display: inline-flex;
+  width: 80px;
+  height: 260px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.Piernaderecha {
+  background-color: orange;
+  display: inline-flex;
+  width: 80px;
+  height: 260px;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 90px;
+  margin-left: 30px;
+  align-items: center;
+}
+.Piernaizquierda {
+  background-color: orange;
+  display: inline-flex;
+  width: 80px;
+  height: 260px;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 100px;
+}
+.container {
+}

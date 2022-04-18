@@ -1,0 +1,88 @@
+.menu {
+  background-color: silver;
+}
+.ColorFondoAzul {
+  background-color: blue;
+}
+.inicio {
+  font: italic;
+}
+.menu ul {
+  display: inline-block;
+  margin: 0%;
+}
+.menu li {
+  display: inline-block;
+  margin-left: 30px;
+}
+span{
+  display: inline-block;
+}
+body {
+  background-color: sienna;
+
+  background-color: purple;
+  margin: 0%;
+}
+header {
+  background-color: silver;
+  padding: 40px;
+}
+nav ul {
+  display: inline-block;
+  margin: left 0px;
+}
+nav li {
+  display: inline-block;
+}
+
+section {
+  padding: 0px;
+  background-color: skyblue;
+}
+
+form {
+  background-color: paleturquoise;
+  padding: 35px;
+}
+#Cursos ul {
+  background-color: blue;
+  text-align: center;
+  padding-left: 80px;
+  display: inline-block;
+}
+section ul {
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  padding: 10px;
+  background-color: saddlebrown;
+  margin: 17px;
+  border:solid:white
+}
+ul {
+ 
+  display: inline-block;
+  padding: 30px;
+}
+#Cursos ul {
+  padding: 500px;
+  background-color: seashell;
+}
+#Cursos,
+h3 {
+  display: inline-block;
+  letter-spacing: 3px;
+  margin-left: 60px;
+}
+nav ul li {
+  padding: 50;
+  font: italic;
+}
+section li {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* etiquetas deben ser escritas para identificar */
+/*especificar reglas con ID numera seguido de ID */

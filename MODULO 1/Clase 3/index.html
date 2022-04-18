@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clase 3</title>
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <section>
+    <h3 class="nameForm"> Formulario de contacto </h3>
+    <form>
+      <div><!--un div pondra uno al lado de otro, dos pondran una bajo -->
+        <label for="nombre"></label> Nombre</label><!--texto debe coincidir for y label id del input -->
+        <input type="text" name="nombre"id="nombre"
+        <label for="email"></label> Email</label><!--texto -->
+        <input type="email" name=" " id="">
+
+      </div>
+      <br/>
+      <div>
+        <label for="pais">Pais</label>
+        <select name="pais"id="pais">  <!-- value lista determinada -->
+          <option value="AR">Argentina </option>
+          <option value="CL">Chile </option>
+          <option value="BR">Brasi </option>
+        </select> 
+        <br/>
+        <label for="idioma">Idioma</label>
+        <input list="idiomas" id="idioma" />
+        <datalist id="idiomas">
+          <option value="Español" ></option>
+          <option value="Frances" ></option>
+          <option value="Portugues" ></option> 
+          <option value="Ingles" ></option>
+          <option value="Danes" ></option>
+          <option value="Aleman" ></option>
+        </datalist>
+      </div>
+      <br>
+      <div>
+        <h3>Sexo</h3>
+        <input type="radio" name="sexo" value="Masculino">
+        <label for="">Masculino</label>
+        <input type="radio" name="sexo" value="Femenino">
+        <label for="">Femenino</label>
+        <input type="radio" name="sexo" value="No informa" checked>
+        <label for="">No informa</label>
+      </div>
+      <br>
+      <div>
+        <h3>Elegir fecha </h3>
+        <label for="fecha"></label> 
+        <input type="date" name="Fecha" id="fecha">
+      </div>
+      <br>
+      <div>
+        <h3>Comentarios</h3>
+        <textarea 
+        name="" 
+        id="" cols="60" 
+        rows="20" 
+        placeholder="Deja tu mensaje">
+        </textarea>
+      </div>
+      <br>
+      <div>
+        <input type="checkbox" name="Condiciones " id="Condiciones">
+        <label for="Condiciones">Acepto terminos y condiciones</label>
+        <br>
+        <button>Enviar</button>
+      </div>
+    </form>
+  </section>
+
+</body>
+</html>

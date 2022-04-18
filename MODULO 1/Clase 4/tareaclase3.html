@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despegarte.com</title>
+  <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+  <section>
+    <form>
+       <div>
+        <h3>Elige tu tipo viaje</h3>
+        <label for="">Solo Ida</label>
+        <input type="radio" name="Elige tu tipo viaje" value="Solo ida" checked>
+        <label for="">Ida y vuelta </label>
+        <input type="radio" name="Elige tu tipo viaje" value="Ida y vuelta">
+        <label for="">Multi Destino </label>
+        <input type="radio" name="Elige tu tipo viaje" value="Multi Destino">
+
+       </div>
+       <br />
+       <div>
+        <h3>Selecciona tus destinos</h3>
+        <label for="Origen">Origen</label>
+        <input list="Ciudades" id="Origen"/>
+        <datalist id="Ciudades">
+          <option value="Santiago"></option >
+          <option value="Buenos Aires"></option>
+          <option value="Tucuman"></option>
+          <option value="Rio de Janeiro"></option>
+          <option value="Montevideo"></option>
+          <option value="Cordoba"></option>
+        </datalist>
+        <label for="Destino">Destino</label>
+        <input list="Ciudades" id="Destino"> 
+        <datalist id="Ciudades">
+          option value="Santiago"></option >
+          <option value="Buenos Aires"></option>
+          <option value="Tucuman"></option>
+          <option value="Rio de Janeiro"></option>
+          <option value="Montevideo"></option>
+          <option value="Cordoba"></option>
+        </datalist>
+       </div>
+       <br />
+       <div>
+        <h3>Elige tus fechas</h3>
+        <h4>Fecha de ida</h4>
+            <label for="Fecha de ida"></label>
+            <input type="date" name="Elige tus fechas " id="Fecha de ida">
+            <h4>Fecha de retorno</h4>
+            <label for="Fecha de retorno"></label>
+            <input type="date" name="Elige tus fechas " id="Fecha de retorno">
+
+       </div>
+       <div>
+      <h3>Comentarios</h3>
+        <textarea 
+        name="" 
+        id="" cols="30" 
+        rows="15" 
+        placeholder="Deja tu mensaje">
+        </textarea>
+      </div>
+       <div>
+        <input type="checkbox" name="Condiciones " id="Condiciones">
+        <label for="Condiciones">Acepto terminos y condiciones</label>
+        <br>
+        <button>Enviar</button>
+       </div>
+    </form>
+  </section>
+  
+</body>
+</html> 

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Robot</title>
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+
+      body{
+      background-color: lightblue;
+    }
+
+    .cabecera{
+      background-color: #FAF255;
+      height: 70px;
+      text-align: center;
+      position: sticky;
+      top: 0px;
+      z-index: 2;
+    }
+
+    .cabecera h3{
+      margin: 0;
+      font-size: 2rem;
+      padding: 15px;
+    }
+
+    .marco{
+      position:relative;
+      height: 900px;
+      width: 700px;
+      margin: 70px auto;
+      background-color: white;
+      border: 1px solid black;
+      padding: 30px;
+    }
+    .cabeza{
+      width: 150px;
+      height: 150px;
+      background-color: #B0D659;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+    }
+    .ojoIzq{
+      position: absolute;
+      left: 15%;
+      background-color: red;
+      padding: 2px 6px;
+      margin-top: 10px;
+    }
+    .ojoDer{
+      position:absolute;
+      right: 15%;
+      background-color: red;
+      padding: 2px 6px;
+      margin-top: 10px;
+    }
+    .boca{
+      position: absolute;
+    bottom: 50px;
+    left: 20%;
+    background-color: darkgoldenrod;
+    }
+    .cuerpo{
+      width: 250px;
+      height: 300px;
+      position:relative;
+      background-color: #B0D659;
+      left:50%;
+      transform: translate(-50%);
+
+    }
+
+    .brazoIzq{
+      width: 80px;
+      height: 250px;
+      background-color: #B0D659;
+      position: relative;
+      top:-300px;
+      left:20%;
+    }
+
+    .brazoDer{
+      width: 80px;
+      height: 250px;
+      background-color: #B0D659;
+      position: relative;
+      top:-550px;
+      left:480px
+      
+    }
+
+    
+    .piernaDer{
+      width: 80px;
+    height: 250px;
+    background-color: #B0D659;
+    position: relative;
+    top: -490px;
+    left:50%;
+    transform: translate(40%);
+    
+    }
+    .piernaIzq{
+      width: 80px;
+    height: 250px;
+    background-color: #B0D659;
+    position: relative;
+    top: -740px;
+    left:30%;
+    transform: translate(30%); 
+    
+    }
+    
+    
+    </style>
+  </head>
+  <body>
+    <header class="cabecera">
+      <h3>Mi Robot BD-1</h3>
+    </header>
+    <section class="marco">
+      <div class="cabeza">
+        cabeza
+        <p class="ojoIzq">*</p>
+        <p class="ojoDer">*</p>
+        <p class="boca">|||||||||||||||||||||||||||||</p>
+      </div>
+      <div class="cuerpo">Cuerpo</div>
+      <div class="brazoIzq">Brazo Izq</div>
+      <div class="brazoDer">Brazo Der</div>
+      <div class="piernaDer">Pierna Der</div>
+      <div class="piernaIzq">Pierna Izq</div>
+    </section>
+  </body>
+</html>
